@@ -1,0 +1,241 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.cardc {
+    border: 2px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.contaner {
+    gap: 5px;
+    margin: 0 auto;
+    width: 1200px;
+    flex-wrap: wrap;
+    display: flex
+;
+    margin-top: 40px;
+;
+}
+button.but1 {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button:hover {
+    color: white;
+    background: black;
+}
+.addtoCard {
+    right: 49px;
+    position: absolute;
+    /* width: 20px; */
+}
+.addtoCard img {
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    box-shadow: 1px 1px 9px 4px gray;
+    padding: 5px;
+}
+.count {
+    top: -6px;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    background: red;
+    color: white;
+    width: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    position: sticky;
+    top: 0;          
+    z-index: 1000;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    background-color: #007bff;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.addtoCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardc {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+    padding: 15px;
+}
+
+.cardc:hover {
+    transform: scale(1.05);
+}
+
+.cardc img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.cardc h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cardc .hola {
+    color: #007bff;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.cardc .but1 {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cardc .but1:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.product-details-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#product-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+#product-details img {
+    flex: 1 1 300px;
+    max-width: 100%;
+}
+
+
+.product {
+    flex: 2 1 400px;
+}
+
+.product h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #28a745;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0 20px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+.back-button-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+
+.back-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
